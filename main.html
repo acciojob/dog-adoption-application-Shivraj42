@@ -11,6 +11,33 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+<form method="post">
+
+    <Label for="name" class="req">Name</Label>
+    <input type="text"  id="name" placeholder="Name">
+
+    <Label for="phone" class="req">Phone Number</Label>
+    <input type="text" id="phone" required placeholder="Phone Number">
+
+    <Label for="address">Address</Label>
+    <input type="text"  id="address" required placeholder="Address">
+    
+    <label for="checkbox">Have you ever lived with a Dog before?</label>
+    <input type="checkbox" name="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+
+
+
+    <label for="multiSelect" class="req">Please select your preferred breeds</label>
+    <select name="multiSelect" id="multiSelect">
+        <option value="bmw">BMW</option>
+        <option value="audy">Audy</option>
+        <option value="mer">Mercedez</option>
+    </select>
+
+    <button type="submit"> Submit</button>
+
+
+</form>
 </body>
 
 </html>
